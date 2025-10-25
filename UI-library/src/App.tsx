@@ -1,7 +1,11 @@
-import "./App.css";
+import Background from "./components/Background/Background";
 
 function App() {
-  return <></>;
+  return (
+    <div className="overflow-x-hidden">
+      <Background />
+    </div>
+  );
 }
 
 export default App;
