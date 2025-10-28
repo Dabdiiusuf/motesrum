@@ -1,4 +1,4 @@
-import blipp from "../../assets/images/contactless-payment.png";
+// import blipp from "./assets/images/contactless-payment.png";
 
 const Blipp = ({
   handleBlipp = () => {
@@ -9,7 +9,7 @@ const Blipp = ({
     <div>
       <button onClick={handleBlipp}>
         <img
-          src={blipp}
+          // src={blipp}
           alt="blipp image"
           className="w-[150px] cursor-pointer"
         />
