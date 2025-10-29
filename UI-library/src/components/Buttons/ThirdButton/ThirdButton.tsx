@@ -1,4 +1,4 @@
-const Next = (
+const ThirdButton = (
   handleNext = () => {
     console.log("Next page");
   },
@@ -16,4 +16,4 @@ const Next = (
   );
 };
 
-export default Next;
+export default ThirdButton;
