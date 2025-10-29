@@ -1,9 +1,5 @@
 export { default as ArrowBack } from "./ArrowBack/ArrowBack";
 export { default as Blipp } from "./Blipp/Blipp";
-export { default as Book } from "./Book/Book";
-export { default as BookLater } from "./BookLater/BookLater";
-export { default as BookNow } from "./BookNow/BookNow";
-export { default as Next } from "./Next/Next";
-export { default as Occupied } from "./Occupied/Occupied";
-export { default as Quit } from "./Quit/Quit";
-export { default as SeeBookings } from "./SeeBookings/SeeBookings";
+export { default as FirstButton } from "./FirstButton/FirstButton";
+export { default as SecondButton } from "./SecondButton/SecondButton";
+export { default as ThirdButton } from "./ThirdButton/ThirdButton";
