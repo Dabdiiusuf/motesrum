@@ -1,16 +1,21 @@
-const FirstButton = (
+type Props = {
+  handleBook?: () => void;
+  text?: string;
+};
+
+const FirstButton = ({
   handleBook = () => {
     console.log("hi");
   },
-  Boka = "Boka"
-) => {
+  text = "boka",
+}: Props) => {
   return (
     <div>
       <button
-        className="w-[138px] h-[48px] bg-gradient-to-tr from-[#FF0000] via-[#E9006D] to-[#D200DA] rounded-md text-white cursor-pointer"
+        className="w-[138px] h-[48px] bg-gradient-to-tr from-[#D200DA] via-[#E9006D] to-[#FF0000] rounded-md text-white cursor-pointer"
         onClick={handleBook}
       >
-        {Boka}
+        {text}
       </button>
     </div>
   );
