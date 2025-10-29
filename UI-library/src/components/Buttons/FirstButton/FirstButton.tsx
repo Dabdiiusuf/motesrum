@@ -7,7 +7,7 @@ const FirstButton = ({
   handleBook = () => {
     console.log("hi");
   },
-  text = "boka",
+  text = "Boka",
 }: Props) => {
   return (
     <div>
