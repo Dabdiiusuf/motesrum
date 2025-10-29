@@ -1,16 +1,21 @@
-const ThirdButton = (
+type Props = {
+  handleNext?: () => void;
+  text?: string;
+};
+
+const ThirdButton = ({
   handleNext = () => {
     console.log("Next page");
   },
-  thirdVariant = "Nästa"
-) => {
+  text = "Nästa",
+}: Props) => {
   return (
     <div>
       <button
         className="w-[138px] h-[48px] rounded-md bg-[#FF315E] text-white cursor-pointer"
         onClick={handleNext}
       >
-        {thirdVariant}
+        {text}
       </button>
     </div>
   );
