@@ -12,7 +12,7 @@ const ThirdButton = ({
   return (
     <div>
       <button
-        className="w-[138px] h-[48px] rounded-md bg-[#FF315E] text-white cursor-pointer"
+        className="w-[138px] h-[48px] rounded-md bg-[#FF315E] text-white cursor-pointer hover:bg-[#c02b4b]"
         onClick={handleNext}
       >
         {text}

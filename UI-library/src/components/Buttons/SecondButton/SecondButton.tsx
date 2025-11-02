@@ -10,7 +10,7 @@ const SecondButton = ({
   return (
     <div>
       <button
-        className="w-[138px] h-[48px] bg-white rounded-md cursor-pointer border-1"
+        className="w-[138px] h-[48px] bg-white rounded-md cursor-pointer border-1 hover:bg-[#7f7f7f]"
         onClick={handleDate}
       >
         {text}
